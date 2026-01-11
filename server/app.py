@@ -9,7 +9,7 @@ from models import db
 app = Flask(__name__)
 
 # configure the database connection to the local file app.db
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/kelvin/Development/Phase-4/python-p4-v2-flask-sqlalchemy-migration/server/instance/app.db'
 
 # configure flag to disable modification tracking and use less memory
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
